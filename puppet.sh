@@ -4,4 +4,4 @@
      chmod +x redhat.sh
      ./redhat.sh
      wget https://raw.githubusercontent.com/devopsraman/puppet/master/file.pp
-     puppet apply file.pp
+     /opt/puppetlabs/puppet/bin/puppet apply file.pp
